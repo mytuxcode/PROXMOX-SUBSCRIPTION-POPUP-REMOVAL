@@ -28,5 +28,3 @@ echo "🕓 Setting persistence..."
 echo "@reboot root ln -sf /usr/local/share/pve-nag-fix/no-popup.js /usr/share/pve-manager/js/no-popup.js && systemctl restart pveproxy" > /etc/cron.d/proxmox-nag-fix
 
 echo "✅ All done! Open your Proxmox UI and verify the popup is gone."
-
-chmod +x install/popup-fix.sh
