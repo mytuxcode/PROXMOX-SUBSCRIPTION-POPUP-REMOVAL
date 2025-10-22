@@ -17,23 +17,6 @@ without modifying core JavaScript files or breaking the Web UI.
 
 ---
 
-## 📂 Repository Structure
-
-```
-PROXMOX-SUBSCRIPTION-POPUP-REMOVAL/
-│
-├── install/
-│   └── popup-fix.sh          # Automated installer script
-│
-├── scripts/
-│   └── no-popup.js           # JavaScript override
-│
-├── LICENSE                   # Open-source license
-└── README.md                 # Documentation (this file)
-```
-
----
-
 ## 🚀 Installation Instructions
 
 > **⚠️ Run as root (or with sudo)**  
